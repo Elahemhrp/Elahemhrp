@@ -1,16 +1,27 @@
-## Hi there 👋
+class Elahe:
+    def init(self):
+        self.name = "Elahe Moharrampour"
+        self.pronouns = ["she", "her"]
+        self.major = "Computer Science Student"
+        self.role = "Node.js Developer"
+        self.languages = ["Python", "JavaScript"]
 
-<!--
-**Elahemhrp/Elahemhrp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def getEmail(self):
+        return "Eli.mhrp1395@gmail.com"
 
-Here are some ideas to get you started:
+    def getAge(self):
+        b = date(2004, 4, 8)
+        t = date.today()
+        return t.year - b.year - ((t.month, t.day) < (b.month, b.day))
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def getStack(self):
+        return {
+            "backEnd": {
+                "frameworks": ["Express.js", "Nest.js"],
+                "microServiceTools": ["gRPC", "RabbitMQ"],
+                "realTimeTools": ["socket.io"],
+                "databases": ["MongoDB", "PostgreSQL", "Redis"],
+                "architectures": ["MVC", "Clean Architecture", "SOLID"],
+                "apiTools": ["Postman", "Swagger"],
+            }
+        }
