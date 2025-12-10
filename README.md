@@ -1,7 +1,5 @@
-from datetime import date
-
 class Elahe:
-    def init(self):
+    def __init__(self):
         self.name = "Elahe Moharrampour"
         self.pronouns = ["she", "her"]
         self.major = "Computer Science Student"
