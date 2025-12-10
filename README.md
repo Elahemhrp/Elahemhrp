@@ -2,7 +2,7 @@
 ---
 I'm Elahe Moharrampour — a Computer Science student and Node.js Developer, passionate about backend engineering and clean system design.
 
-## About me
+# About me
 ---
 ```python
 class Elahe:
