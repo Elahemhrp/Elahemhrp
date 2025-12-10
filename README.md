@@ -7,15 +7,15 @@ class Elahe:
         self.role = "Node.js Developer"
         self.languages = ["Python", "JavaScript"]
 
-    def getEmail(self):
+    def get-email(self):
         return "Eli.mhrp1395@gmail.com"
 
-    def getAge(self):
+    def get-age(self):
         b = date(2004, 4, 8)
         t = date.today()
         return t.year - b.year - ((t.month, t.day) < (b.month, b.day))
 
-    def getStack(self):
+    def skills(self):
         return {
             "backEnd": {
                 "frameworks": ["Express.js", "Nest.js"],
